@@ -1,0 +1,21 @@
+@import url('style-grid-system.css');
+@import url('_nabar.css');
+@import url('_header.css');
+@import url('_card.css');
+@import url('_about-us.css');
+@import url('_agency.css');
+@import url('_sub.css');
+@import url('_footer.css');
+
+
+
+
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Medium.eot');
+    src: url('../fonts/Vazir-Medium.woff') format('woff2'),
+         url('../fonts/Vazir-Medium.woff2') format('woff');
+         font-weight: normal;
+    font-style: normal;
+}

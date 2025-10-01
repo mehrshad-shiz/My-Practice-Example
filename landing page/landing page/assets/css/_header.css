@@ -1,0 +1,42 @@
+.header{
+   margin-top: 50px;
+}
+.header .landing-text{
+    transform: translateY(50%);
+}
+.header .landing-text h1{
+    color: #424242;
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 12px;
+}
+.header .landing-text h1 span{
+    color: #d5782c;
+}
+
+.header .landing-text p{
+font-size: 16px;
+color: #6f6f6f;
+line-height: 20px;
+}
+
+.header .landing-text .btn{
+    width: 110px;
+    height: 35px;
+    font-size: 16px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #d5782c;
+    border: none;
+    border-radius: 8px;
+    transition: all .2s ease;
+    position: relative;
+    
+}
+.header .landing-text .btn:hover{
+    background-color: #f5e0ce;
+    color: #d5782c;
+    border : 1px solid #d5782c;
+    transform: scale(1.1);
+}
+  

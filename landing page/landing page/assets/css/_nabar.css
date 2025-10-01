@@ -1,0 +1,63 @@
+.nav {
+display: grid;
+grid-template-columns: auto auto auto;
+text-align: center;
+padding: 20px 30px;
+gap: 1rem;
+background-color: #f4f4f4;
+border-bottom: 2px solid #d5782c;
+}
+/* brand logo  */
+.nav .brand .logo i {
+    font-size: 25px;
+}
+.nav .brand .brand-name{
+font-size:18px ;
+color: #695443;
+}
+/* menu  */
+.nav .menu {
+    display: inline-grid;
+    justify-self: center;
+    align-self:center ;
+    grid-auto-flow: column;
+    list-style: none;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    position: relative;
+    transition: all .2s ease-in;
+
+}
+.menu li:hover{
+    transform: scale(1.1);
+
+}
+.nav .menu li a {
+    padding:.45rem .7rem; 
+    border-radius:10px;
+    color: #424242;
+    transition: all .2s ease-in;
+}
+.nav .menu li a:hover{
+    background-color: #d5782c;
+    color: #f4f4f4;
+}
+/* btn  */
+.nav .btn {
+    width: 90px;
+    height: 40px;
+    border: none;
+    color: #efefef;
+    background-color: #d5782c;
+    border-radius: 10px;
+    transition: all .2s ease-in;
+}
+.nav .btn:hover{
+    background-color: #f4f4f4;
+    color: #d5782c;
+    border: 1px solid #d5782c;
+}
+
