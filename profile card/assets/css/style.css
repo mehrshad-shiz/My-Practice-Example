@@ -1,0 +1,11 @@
+@import url('style-grid-system.css');
+@import url('_card.css');
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Medium.eot');
+    src: url('../fonts/Vazir-Medium.woff') format('woff2'),
+         url('../fonts/Vazir-Medium.woff2') format('woff');
+         font-weight: normal;
+    font-style: normal;
+}
