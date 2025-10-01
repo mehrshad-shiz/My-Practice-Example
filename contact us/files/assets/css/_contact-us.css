@@ -1,0 +1,99 @@
+/* contact  */
+.contact h1 {
+  font-size: 40px;
+  color: #2d2d2d;
+  font-weight: 100;
+}
+.contact p {
+  font-size: 16px;
+  line-height: 32px;
+  color: #2d2d2d;
+}
+.contact form {
+  margin: 50px 20px;
+}
+.contact form .name label,
+.contact form .email label,
+.contact form .message label {
+  display: block;
+  color: #424141;
+}
+.contact form .name input,
+.contact form .email input {
+  border: none;
+  width: 200px;
+  border-bottom: 1px solid #000;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.contact form .message textarea {
+  width: 200px;
+  outline: none;
+  height: 100px;
+  border: 1px solid #000;
+
+  resize: vertical;
+}
+.contact form .name input:focus,
+.contact form .email input:focus {
+  margin: 0 10px;
+}
+
+.contact form .message textarea:focus {
+  border: 1px dotted #000;
+}
+.contact form .message textarea::placeholder {
+  position: absolute;
+  top: 0;
+}
+.contact form .sub {
+  width: 100px;
+  height: 40px;
+  background-color: #62c1c5;
+  color: #efefef;
+  border-radius: 10px;
+  border: none;
+  margin-left: 15px;
+}
+/* images */
+.pics {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.pics div {
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+.pics div img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.pics div img:hover {
+  transform: scale(1.05);
+}
+
+/* چیدمان تصاویر به صورت چپ و راست */
+.first-pic,
+.third-pic {
+  align-self: flex-end;
+}
+
+.second-pic,
+.fourth-pic {
+  align-self: flex-start;
+}
+
+/* Responsive برای موبایل */
+@media only screen and (max-width: 768px) {
+  .pics div {
+    display: none;
+  }
+}

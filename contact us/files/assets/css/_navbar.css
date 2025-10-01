@@ -1,0 +1,83 @@
+.nav{
+    width:100%;
+    height: auto;
+    border-bottom: 2px solid #317b41;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* logo  */
+.brand-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.brand-logo .fa-m {
+    font-size: 28px;
+    margin-right: 3px;
+    color: #317b41;
+}
+.brand-logo .logo-name{
+    font-size: 20px;
+    color: #3e3e3e;
+    position: relative;
+    top:5px;
+}
+.brand-logo .logo-name span{
+    font-size: 28px;
+    color: #317b41;
+    margin: -4px;
+}
+
+/* navbar items */
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li {
+    margin-right: 35px;
+    transition: all .3s ease;
+}
+.navbar ul li a{
+    color: #525252;
+    transition: all .3s linear;
+}
+.navbar ul li:hover{
+    transform: scale(1.5);
+}
+.navbar ul li:hover a{
+    color: #43743f;
+}
+
+/* social */
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social a{
+  margin-right: 10px;  
+  font-size: 24px;
+}
+
+@media only screen and (max-width : 576px) {
+.brand-logo{
+   justify-content: left;
+}
+   
+ .social{
+    display: none;
+ }
+ .navbar ul li:last-child{
+    display: none;
+ }
+}
+@media only screen and (max-width: 730px){
+    .logo-name span {
+        display: block;
+    }
+     .logo-name{
+    display : none;
+ }   
+}
